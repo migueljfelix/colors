@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.guess-me {
+  width: 330px;
+  height: 240px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px #1a1a1a;
+  border: #1a1a1a 1px solid;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: solid #1a1a1a 3px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 0px #1a1a1a;
+  position: relative;
+  top: 0px;
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+.wrong {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+
+.correct {
+  color: green;
+  font-size: 24px;
+  text-align: center;
+}
+
+button:hover {
+  top: 2px;
+  box-shadow: 0px 8px 0px #1a1a1a;
+}
+
+button:active {
+  transition: 100ms ease;
+  top: 8px;
+  box-shadow: 0px 2px 0px;
+}
+
+.footer{
+  padding-top: 30px;
+}
+
+a + a{
+  margin-left: 20px;
+}
+
+a{
+  color: black;
+  font-size: 20px;
+}

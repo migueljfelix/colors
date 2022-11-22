@@ -1,0 +1,9 @@
+body,
+html, 
+#root{
+  margin: 0px;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  background: linear-gradient(to right, #00aaff, #00ff6c);
+}
